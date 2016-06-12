@@ -270,9 +270,11 @@ a {
 }
 
 .divider-line.two {
-  width: 156px;
+  width: 100%;
+  height: 1px;
   margin-top: 60px;
   margin-bottom: 60px;
+  background-color: #cecece;
 }
 
 .divider-line.head {
@@ -1197,6 +1199,9 @@ html.w-mod-js *[data-ix="slide-out-portfolio-icon"] {
     border-radius: 20px;
     background-color: #e3543b;
   }
+  .macy-pay {
+    max-width: 79%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1247,11 +1252,22 @@ html.w-mod-js *[data-ix="slide-out-portfolio-icon"] {
   .another-space-device {
     margin-bottom: 20px;
   }
+  .figure4img.top {
+    margin-bottom: 31px;
+  }
+  .figure4div {
+    text-align: center;
+  }
 }
 
 @media (max-width: 479px) {
   .banner {
     height: 40%;
+  }
+  .top-sub-text {
+    margin-bottom: 34px;
+    font-size: 14px;
+    line-height: 26px;
   }
   .tab {
     display: inline-block;
@@ -1271,6 +1287,10 @@ html.w-mod-js *[data-ix="slide-out-portfolio-icon"] {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .hero {
+    font-size: 23px;
+    line-height: 35px;
+  }
   .banner-big-title {
     font-size: 30px;
     line-height: 40px;
@@ -1279,9 +1299,53 @@ html.w-mod-js *[data-ix="slide-out-portfolio-icon"] {
     font-size: 18px;
     line-height: 28px;
   }
+  .mnp {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .main-head {
+    margin-top: -50px;
+    font-size: 19px;
+    line-height: 28px;
+  }
   .proconp {
     font-size: 12px;
     line-height: 21px;
+  }
+  .quotesp {
+    font-size: 15px;
+  }
+  .titleh2 {
+    font-size: 24px;
+  }
+  .titleh3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .steps-concl {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .macy-pay {
+    max-width: 98%;
+  }
+  .macy-raw {
+    text-align: center;
+  }
+  ._800flower {
+    max-width: 96%;
+  }
+  .macy-top {
+    margin-bottom: 26px;
+  }
+  ._800-fowers-div {
+    text-align: center;
+  }
+  ._800chart-top {
+    margin-bottom: 26px;
+  }
+  .or-list-blk {
+    padding-left: 25px;
   }
 }
 
