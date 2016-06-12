@@ -280,6 +280,7 @@ a {
 }
 
 .top-sub-text {
+  margin-bottom: -82px;
   font-family: 'Open Sans', sans-serif;
   color: #585858;
   font-size: 16px;
@@ -896,15 +897,15 @@ a {
 }
 
 .thumb-div {
-  margin: -53px 2px 2px;
+  margin: 0px 2px -155px;
   padding: 10px;
 }
 
 .thumb {
-  max-width: 16%;
+  max-width: 49%;
   margin-top: 0px;
-  padding-bottom: 15px;
-  opacity: 0.5;
+  padding-bottom: 0px;
+  opacity: 0.21;
 }
 
 .main-head {
@@ -988,7 +989,8 @@ a {
 }
 
 .quotesp {
-  margin-top: 27px;
+  margin-top: 6px;
+  margin-bottom: 64px;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 300;
