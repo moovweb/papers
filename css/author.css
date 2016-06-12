@@ -269,11 +269,21 @@ a {
   margin-bottom: 15px;
 }
 
+.divider-line.two {
+  width: 156px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.divider-line.head {
+  background-color: #3bbbe3;
+}
+
 .top-sub-text {
   font-family: 'Open Sans', sans-serif;
   color: #585858;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 30px;
   font-weight: 400;
   text-align: left;
   letter-spacing: normal;
@@ -868,11 +878,21 @@ a {
 }
 
 .mnp {
+  margin-bottom: 10px;
+  margin-left: 2px;
+  padding: 2px;
   font-family: 'Open Sans', sans-serif;
   color: #585858;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 30px;
   font-weight: 400;
+}
+
+.mnp.disclose {
+  margin-top: -11px;
+  font-size: 14px;
+  line-height: 23px;
+  font-style: italic;
 }
 
 .thumb-div {
@@ -881,8 +901,9 @@ a {
 }
 
 .thumb {
-  max-width: 18%;
+  max-width: 16%;
   margin-top: 0px;
+  padding-bottom: 15px;
   opacity: 0.5;
 }
 
@@ -919,8 +940,12 @@ a {
 }
 
 .proconul {
-  margin-top: 10px;
-  border-left: 1px solid #dad5d5;
+  height: 123px;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-left: 1px none #dad5d5;
   font-family: 'Open Sans', sans-serif;
   color: #686868;
 }
@@ -931,12 +956,14 @@ a {
 }
 
 .proconp {
+  margin-top: 15px;
   font-family: 'Open Sans', sans-serif;
   color: #686868;
   font-weight: 400;
 }
 
 .proconp.option {
+  margin-bottom: 70px;
   font-weight: 600;
 }
 
@@ -962,9 +989,11 @@ a {
 
 .quotesp {
   margin-top: 27px;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 ._800img {
@@ -984,11 +1013,12 @@ a {
 }
 
 .captionsh5.figure3 {
-  margin-top: -90px;
+  margin-top: 11px;
 }
 
 .captionsh5.figure4 {
   margin-top: 11px;
+  margin-left: 26px;
 }
 
 .figure2img {
@@ -997,6 +1027,7 @@ a {
 }
 
 .titleh2 {
+  display: inline-block;
   margin-top: 32px;
   font-family: 'Droid Sans', sans-serif;
 }
@@ -1007,6 +1038,83 @@ a {
 
 .figure4div {
   margin-top: 42px;
+}
+
+.checkmark-div {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.row {
+  border: 1px solid #bbadad;
+}
+
+.row.tite {
+  height: 48px;
+  min-height: 0px;
+  border-style: solid;
+}
+
+.row._2 {
+  min-height: 0px;
+}
+
+.col {
+  position: static;
+  margin-bottom: 0px;
+  border-style: none solid none none;
+  border-right-width: 1px;
+  border-right-color: #cecece;
+  border-left-width: 1px;
+  border-left-color: #000;
+}
+
+.figure5-wrapper {
+  margin-top: 11px;
+  margin-bottom: 44px;
+}
+
+.figure4-wrapper {
+  margin-top: 6px;
+  margin-bottom: 7px;
+}
+
+.titileh4 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titleh3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.steps-concl {
+  margin: 3px 0px;
+  padding: 2px;
+  font-family: 'Open Sans', sans-serif;
+  color: #585858;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.test-placement {
+  display: none;
+}
+
+.macy-pay {
+  max-width: 57%;
+}
+
+.macy-raw {
+  margin-bottom: 54px;
+}
+
+._800flower {
+  max-width: 57%;
 }
 
 html.w-mod-js *[data-ix="slide-out-portfolio-title"] {
@@ -1168,6 +1276,10 @@ html.w-mod-js *[data-ix="slide-out-portfolio-icon"] {
   .banner-sub-text {
     font-size: 18px;
     line-height: 28px;
+  }
+  .proconp {
+    font-size: 12px;
+    line-height: 21px;
   }
 }
 
