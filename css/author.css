@@ -892,7 +892,8 @@ a {
 }
 
 .mnp.disclose {
-  margin-top: -11px;
+  margin-top: -20px;
+  color: #acacac;
   font-size: 14px;
   line-height: 23px;
   font-style: italic;
@@ -912,6 +913,7 @@ a {
 
 .main-head {
   font-family: Raleway, sans-serif;
+  text-align: left;
 }
 
 .content-h2 {
@@ -1025,6 +1027,15 @@ a {
   margin-left: 26px;
 }
 
+.captionsh5.figure6 {
+  margin-top: -12px;
+  text-align: center;
+}
+
+.captionsh5.figure7 {
+  text-align: center;
+}
+
 .figure2img {
   margin-top: 27px;
   margin-bottom: 7px;
@@ -1034,6 +1045,7 @@ a {
   display: inline-block;
   margin-top: 32px;
   font-family: 'Droid Sans', sans-serif;
+  color: #5a5a5a;
 }
 
 .figure4img {
@@ -1118,7 +1130,16 @@ a {
 }
 
 ._800flower {
-  max-width: 57%;
+  max-width: 70%;
+}
+
+._800-fowers-div {
+  text-align: center;
+}
+
+._800chart-top {
+  margin-top: 68px;
+  margin-left: 103px;
 }
 
 html.w-mod-js *[data-ix="slide-out-portfolio-title"] {

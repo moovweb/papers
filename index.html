@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<!-- Last Published: Sun Jun 12 2016 18:54:00 GMT+0000 (UTC) -->
+<!-- Last Published: Tue Jun 14 2016 21:20:32 GMT+0000 (UTC) -->
 <html data-wf-site="57560452127f62b44e0d8671" data-wf-page="57560452127f62b44e0d86b6">
 <head>
   <meta charset="utf-8">
   <title>Moovweb</title>
-  <meta name="description" content="Angler is a template, that combines a minimal modern design with the right amount of features to help you create an outstanding web for your business in no time.">
+  <meta name="description" content="Moovweb delivers over 2.5 billion pages to 60 million mobile users every month, powering hundreds of mobile experiences for market leaders including Nordstrom, AIG, Kaiser, McKesson, Fairmont and Campbell’s.
+">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/author.css">
@@ -18,12 +20,12 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/32.png">
-  <link rel="apple-touch-icon" href="images/256.png">
+  <link rel="shortcut icon" type="image/x-icon" href="images/32_final_favicon.png">
+  <link rel="apple-touch-icon" href="images/Untitled-2.png">
 </head>
 <body>
   <div class="w-nav navigation" data-animation="default" data-collapse="medium" data-duration="400" data-no-scroll="1">
-    <a class="w-nav-brand brand" href="index.html"><img class="logo" src="images/logo.png">
+    <a class="w-nav-brand brand" href="index.html"><img class="logo" src="images/mwlogo_blk.png">
     </a>
     <nav class="w-nav-menu navigation-menu" role="navigation"><a class="w-nav-link navigation-link" href="#check">What is Thumbprint Checkout?</a><a class="w-nav-link navigation-link" href="#8steps">Eight steps to nailing Thumbprint Checkout</a><a class="w-nav-link navigation-link" href="#orderplace">Order Placement API</a><a class="w-nav-link navigation-link" href="#">Delivery Options, Delivery Costs, and Taxes API</a><a class="w-nav-link navigation-link" href="#">Change your measurement metrics</a><a class="w-nav-link navigation-link" href="#">Measure the results and refine</a><a class="w-nav-link navigation-link" href="#macystudy">Department Store Case Study: Macy’s</a><a class="w-nav-link navigation-link" href="#">Conclusion</a><a class="w-nav-link navigation-link" href="#">About Moovweb</a>
     </nav>
@@ -43,7 +45,6 @@
         <h2 class="hero">THUMBPRINT CHECKOUT CHANGES EVERYTHING</h2>
         <h4 class="hero-h4">An Implementation Guide</h4>
         <div class="divider-line head"></div>
-        <div class="top-sub-text white">By Ajay Kapur</div>
       </div>
     </div>
   </div>
@@ -90,13 +91,13 @@
         <br>
         <br>Rather encourage ‘why’/ ‘what’ questions, “why do we have so many options during checkout?” “What would shoppers feel if we if we removed promotion codes for thumbprint purchases?” “What is the absolute basic amount of customer information we need to complete a purchase?”</p>
       <h4 class="titileh4">Step 2: Put the Apple Pay button on the product page!</h4>
-      <div><img class="figure2img" src="images/4wc9e--l.png">
+      <div><img class="figure2img" src="images/if6nrz68.png">
         <h5 class="captionsh5">Figure 2: Three integration options for Thumbprint Checkout</h5>
       </div>
       <p class="mnp">The most radical implementation of Thumbprint Checkout is on the product page. We strongly suggest you start with that approach—versus the cart or billing page options— because it represents the simplest purchase path for the shopper (i.e., skip the cart step as well as the checkout flow). And for your organization, it represents a chance to completely rethink the checkout flow and question all assumptions. If the “Buy with Apple Pay” button is on the product page, collecting promotion codes or offering warranty upsells becomes much more challenging. Where in the UI do you present such options? Do you have an API to support showing such options on the product page?
         <br>
         <br>Start with the product page integration unless less than 25% of your orders are for a single item (e.g., online groceries) in which case start with the cart integration.</p>
-      <div class="figure4-wrapper"><img src="images/6nvlmz8w.png">
+      <div class="figure4-wrapper"><img src="images/e945r-u3.png">
       </div>
       <div>
         <h5 class="captionsh5 figure3">Figure 3: Pros and Cons of each integration option</h5>
@@ -124,7 +125,7 @@
       </div>
     </div>
     <div class="w-container">
-      <div class="figure5-wrapper"><img src="images/5tpr_cdo.png">
+      <div class="figure5-wrapper"><img src="images/b9mt9rxc.png">
         <h5 class="captionsh5 figure4">Figure 5: Payment Sheet information</h5>
       </div>
       <p class="mnp">Here are the two most important things to understand about the Payment Sheet.</p>
@@ -133,7 +134,11 @@
       <p class="mnp">The developer docs have far more information on the workings of the Payment Sheet. This whitepaper is intended to give you the most important information that will have the biggest impact on the quality and timeliness of your implementation.</p>
       <h4 class="titileh4">Step 5: Add necessary features to the product page</h4>
       <p class="mnp">In addition to removing unnecessary features from the product page, it’s also likely there are critical elements of the transaction that are currently elsewhere in your checkout. A common example is specifying gift options, such as a gift message, gift wrapping, or a gift receipt, which are often on the cart or checkout pages. Since the Apple Pay product integration will skip your checkout flow, these options need to be made available right from the product page.</p>
+      <div><img src="images/800_flower.png">
+      </div>
+      <h5 class="captionsh5 figure6">Figure 6: Payment Sheet (pre- and post-thumbprint)</h5>
       <p class="mnp">For example, Figure X shows a hypothetical 1-800-FLOWERS.COM product page integration. In the current site, specifying the gift card message is on first step of the checkout page. Since social etiquette demands a gift card message with almost any floral present, we’ll need to move this feature to the product page. Each additional feature we add creates friction, so need the place the appropriate affordances around any new feature that’s required for checkout from the product page. In this case, we’ll prominently display the gift message input above the Apple Pay button, and, since it’s rare to send flowers without a gift, warn users when they have tapped the Apple Pay button with an empty gift message. Even better, we can display a range of customizable pre-written gift messages appropriate for the selected occasion.</p>
+      <p class="mnp">Keep in mind though to follow Step 1, and only promote the options to the product page that have the shopper’s best interests at heart. Adding features like a gift message, which your shoppers would consider a requirement, is appropriate. However, adding unnecessary and rarely purchased upsells to maintain your current average order value may backfire and result in lower overall revenue per visitor.</p>
       <h4 class="titileh4">Step 6: Build the right APIs</h4>
       <p class="mnp">You may need to build a few APIs to enable Apple Pay for the web. There may be many APIs required, but two are required in most cases: placing an order and getting delivery options/costs. You probably already have this functionality already somewhere in your checkout process. The key difference is that you now need to allow this functionality directly from your product and cart pages.</p>
       <h3 class="titleh3" id="orderplace">Order Placement API</h3>
@@ -148,6 +153,9 @@
       <p class="mnp">As noted earlier in Figure X, the only delivery information you’ll have at this point is the zip code, city, and state, not the full address. So you’ll need to be able to return the the delivery options, delivery costs, and taxes without knowing the full address. If this is not possible, we examine alternatives in the 1-800-FLOWERS.COM case study below.</p>
       <h4 class="titileh4">Step 7: Use the contact information from Apple to create a long-term relationship with the customer</h4>
       <p class="mnp">Give the shopper the ability to opt-out of delivery alerts.</p>
+      <div class="_800-fowers-div"><img src="images/7ucgb9rq.png">
+      </div>
+      <h5 class="captionsh5 figure7">Figure 7: Allow user to opt-out of delivery alerts</h5>
       <p class="mnp">The second way to use the shopper’s contact information is to determine whether they already have an account. If so, this most recent order should be tied to that account. Ideally, they should not have to re-authenticate with a password to be logged in. They already authenticated with their thumbprint and so you can be sure that they are the ones who own the email address being presented. If the shopper is part of a loyalty program, they should receive credit for the purchase they just made and be made aware of such credit.</p>
       <p class="mnp">If they don’t have an account with that email address, create a simple option to create an account. Populate the email field with their email address to make the form simpler.</p>
       <p class="mnp">Thumbprint Checkout will drive increased conversion rates, and it can also make it easier to develop a longer-term relationship shoppers.</p>
@@ -173,11 +181,11 @@
       <div>
         <div class="w-row macy-raw">
           <div class="w-col w-col-5">
-            <div><img class="macy-top" src="images/7b37_7r2.png">
+            <div><img class="macy-top" src="images/9zv6-3et.png">
             </div>
           </div>
           <div class="w-col w-col-7">
-            <div><img class="macy-pay" src="images/draft_macy.png">
+            <div><img class="macy-pay" src="images/0_xbsm0q.png">
             </div>
           </div>
         </div>
@@ -195,16 +203,20 @@
       <div class="_800-fowers-div">
         <div class="w-row">
           <div class="w-col w-col-5">
-            <div><img class="_800chart-top" src="images/vz71tudr.png">
+            <div><img class="_800chart-top" src="images/uthz-kah.png">
             </div>
           </div>
           <div class="w-col w-col-7">
-            <div><img class="_800flower" src="images/8002.png">
+            <div><img class="_800flower" src="images/jcfyu-oc.png">
             </div>
           </div>
         </div>
       </div>
       <div class="divider-line two"></div>
+      <h3 class="titleh3">Future Paths / Next Steps</h3>
+      <p class="mnp">[Comment on ability to keep cart/session open for 90 minutes after a purchase, ie that subsequent purchases in the next 90 minutes be able to be added to the same order and shipment, as appropriate. Move upsells to the confirmation page. etc]In the near term it is important to begin experimenting with Thumbprint Checkout and thinking about how it will affect your store. Don’t assume anything, throw out the old rules, measure it and test. It is critical to immediately think through the UX and technical requirements to add the Thumbprint Checkout buttons on not only the product page, but also on the cart page.
+        <br>This is not just an Apple phenomenon. Thumbprint Checkout will standardize into all browsers very quickly with Google also launching Android Pay for the Web. Thumbprint Checkout is equally available on tablets. Laptop vendors including Apple will continue to add Thumbprint Checkout capabilities to laptops enabling desktop browsers like Safari, Chrome and Internet Explorer to take advantage of this phenomenon.
+        <br>Famed internet commentator Mary Meeker reinforced her prediction of Conversational Commerce in her 2016 report, highlighting the mass user migration to messaging apps. For retailers, that means the user touch point won’t be a mobile home screen full of apps, social networking feeds or search engine listings. It will rather be a position on one’s contact list on Facebook Messenger or Whatsapp.In the mid-term you should consider the impacts of Thumbprint Checkout on Conversational Commerce. Mastering Thumbprint Checkout must be considered a foundational prerequisite for successfully supporting payments within messaging clients</p>
       <h3 class="titleh3">Conclusion</h3>
       <p class="mnp">Thumbprint Checkout is here, it is real and is a very big deal. As you work through your list of initiatives for this year, we think few will have such a huge transformative impact on your revenue as Thumbprint Checkout. Reorganize your priorities.</p>
       <h4 class="titileh4">There are 8 steps to achieving a successful implementation.</h4>
@@ -228,10 +240,8 @@
       <p class="mnp">Moovweb’s current shopping cart product, MoovCheckout, allows brands to make informed decisions and influence the customer journey based on actionable insights and benchmarks. Companies see exactly where customers drop off in the checkout funnel, which fields are problematic and what causes checkout delays. MoovCheckout also provides business users the ability to create and test custom checkout experiences, and is trusted by major retailers such as Macy’s, Perry Ellis, The Limited, Petco, and Peet’s Coffee and Tea.</p>
     </div>
   </section>
-  <section class="w-section section gray">
-    <div class="w-container">
-      <blockquote class="quotesp">“You can’t stop the waves, but you can learn to surf.”– anonymous</blockquote>
-    </div>
+  <section class="w-section section gray"><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+    <div class="w-container"></div>
   </section>
   <div class="w-section section less-space">
     <div class="w-container"></div>
@@ -241,10 +251,10 @@
       <div class="w-row">
         <div class="w-col w-col-4">
           <div class="footer-wrapper">
-            <div><img src="images/logo_wht.png">
+            <div><img src="images/mwlogo.png">
             </div>
             <div class="call-to-action-wrapper">
-              <p>Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci.</p>
+              <p>Moovweb, is the pioneer in powering engaging mobile experiences for the world’s leading brands. We recently announced plans to optimize our platform for Apple Pay’s debut on mobile web and to provide professional services to help customers get live.</p>
             </div>
           </div>
         </div>
@@ -285,7 +295,7 @@
                   <div class="footer-icon icon-4"></div><a class="footer-link" href="#">Services</a>
                 </li>
                 <li class="w-clearfix list-footer">
-                  <div class="footer-icon icon-4"></div><a class="footer-link" href="#">Portfolio</a>
+                  <div class="footer-icon icon-4"></div><a class="footer-link" href="#">Partners</a>
                 </li>
                 <li class="w-clearfix list-footer">
                   <div class="footer-icon icon-4"></div><a class="footer-link" href="#">Contact</a>
